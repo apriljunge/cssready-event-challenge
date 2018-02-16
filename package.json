@@ -1,0 +1,16 @@
+{
+  "name": "cssready-event-challenge",
+  "description" : "A test project to find the best option for an css-ready event",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "build": "npm run sass",
+    "sass": "node-sass --output-style expanded -o ./css ./scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apriljunge/cssready-event-challenge.git"
+  }
+}

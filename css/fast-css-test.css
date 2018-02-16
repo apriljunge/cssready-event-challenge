@@ -1,0 +1,11 @@
+body {
+  font-family: success;
+}
+
+.success {
+  color: #22ff22;
+}
+
+.success + .success {
+  color: #ff2222;
+}

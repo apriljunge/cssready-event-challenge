@@ -1,0 +1,14 @@
+@import 'settings';
+
+body {
+  font: {
+    family: success;
+  }
+}
+
+.success {
+  color: map-get($colors, success);
+  & + & {
+    color: map-get($colors, error);
+  }
+}

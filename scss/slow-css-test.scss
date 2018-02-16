@@ -1,0 +1,9 @@
+@import 'settings';
+
+@for $i from 1 through 100000 {
+  .dummy-selector-#{$i} {
+    width: 1px;
+  }
+}
+
+@import 'css-test';
